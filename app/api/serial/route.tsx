@@ -1,6 +1,6 @@
 import dbConnect from '@/lib/dbConnect'
 import Serial from '@/models/Serial'
-import { Mongoose } from 'mongoose'
+import mongoose from 'mongoose'
 import { NextResponse } from 'next/server'
 
 export async function GET(request: Request) {
