@@ -1,6 +1,6 @@
 import dbConnect from '@/lib/dbConnect'
 import Serial from '@/models/Serial'
-import { useSearchParams } from 'next/navigation'
+import { Mongoose } from 'mongoose'
 import { NextResponse } from 'next/server'
 
 export async function GET(request: Request) {
